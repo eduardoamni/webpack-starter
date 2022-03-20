@@ -10,7 +10,7 @@ module.exports = {
 
     output:{
         clean:true,
-        filename:'./assets/js/main.[contenthash].js'
+        filename:'./index.[contenthash].js'
     },
 
     module: {
