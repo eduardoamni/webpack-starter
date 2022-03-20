@@ -73,7 +73,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             //se le puede meter un hash
             // filename: 'assets/css/[name].[fullhash].css',
-            filename: './assets/css/[name].[hash].css',
+            filename: './assets/css/[name].[fullhash].css',
             ignoreOrder: false
 
         }),
