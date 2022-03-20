@@ -8,7 +8,7 @@ module.exports = {
 
     output:{
         clean:true,
-        filename:'./assets/js/main.[contenthash].js'
+        filename:'./main.[contenthash].js'
     },
 
     module: {
